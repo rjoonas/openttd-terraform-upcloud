@@ -51,13 +51,12 @@ su openttd -c \
   ./configure --enable-dedicated && \
   make"
 
-cd $REPO_DIR
+cd $REPO_DIR || exit
 make install
 ln -s /usr/local/games/openttd /usr/local/bin/openttd
 
 su openttd -c \
-  'mkdir /home/openttd/.openttd && \
-  ln -s /usr/share/games/openttd/baseset /home/openttd/.openttd/baseset'
+  'mkdir /home/openttd/.openttd && ln -s /usr/share/games/openttd/baseset /home/openttd/.openttd/baseset'
 
 # -----------------------------------------------------------------------------
 # 4: MAKE OPENTTD SYSTEMD SERVICE RUN ON SERVER STARTUP
