@@ -6,7 +6,7 @@
 
 ----
 
-Terraform configuration to deploy an [OpenTTD](https://github.com/OpenTTD/OpenTTD) game server on [UpCloud](https://upcloud.com/). The server will be running **Debian 10**, with **openttd 1.9.3** compiled from source.
+Terraform configuration to deploy an [OpenTTD](https://github.com/OpenTTD/OpenTTD) game server on [UpCloud](https://upcloud.com/). The server will be running **Debian 10**, with **openttd 1.10.1** compiled from source.
 
 ## Prerequisites
 

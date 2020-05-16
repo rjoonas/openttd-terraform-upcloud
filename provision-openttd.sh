@@ -1,7 +1,7 @@
 #!/bin/bash
 set +eux
 
-export OPENTTD_VERSION=1.9.3
+export OPENTTD_VERSION=1.10.1
 
 # -----------------------------------------------------------------------------
 # 1: INSTALL DEPENDENCIES
